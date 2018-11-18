@@ -113,12 +113,14 @@ h1{
 .list,.list--horizontal {
   margin: 0;
   padding: 0;
-  list-style-type: none
+  list-style-type: none;
+  font-weight:300;
+  font-size: .8em;
 }
 
 .list--horizontal .list__item {
   display: inline-block;
-  vertical-align: top
+  vertical-align: top;
 }
 
 .list-project-info {
@@ -166,12 +168,13 @@ h1{
 .list-project-info__item--link {
   width: 100%;
   margin-bottom: 3.92857rem
-}
+} */
 
 .list-project-info__label {
+  margin-top: 1em;
   margin-bottom: .35714rem;
   color: #1e1e1e;
-} */
+}
 
 
 
@@ -206,7 +209,7 @@ nav{
 }
 
 .work2 img {
-  margin: 5%;
+  margin: 3%;
   width: 94%;
 }
 
@@ -772,7 +775,7 @@ textarea {
 
 footer {
   color: #EDEFFB;
-  background: #4F5C60;
+  background: #353639;
   position: relative;
   bottom: 0px;
   padding: 17px 0 18px 0;
