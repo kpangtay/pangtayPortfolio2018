@@ -1,1 +1,115 @@
-<h1>Hello</h1>
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Pangtay Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1">
+    <link rel="icon" type="image/png" href="/images/logoSMALL.png">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+  </head>
+  <div class="container">
+    <nav>
+      <input type="checkbox" id="nav" class="hidden">
+      <label for="nav" class="nav-btn" tableindex="0">
+        <i></i>
+        <i></i>
+        <i></i>
+      </label>
+      <div class="logo">
+          <a class="link" href="#top">PANGTAY</a>
+      </div>
+      <div class="nav-wrapper">
+          <ul>
+            <li><a class="link" href="#about" >ABOUT</a></li>
+            <li><a class="link" href="#projects" >PROJECTS</a></li>
+            <li><a class="link" href="#contact" >CONTACT</a></li>
+          </ul>
+      </div>
+    </nav>
+  </div>
+
+
+  <div class="container gradient-purple-blue">
+    <div class="under-container bubble" style="height:60vh;">
+      <div class="line">
+          <div class="square" id="square">H</div>
+          <div class="square" >e</div>
+          <div class="square" >l</div>
+          <div class="square" >l</div>
+          <div class="square" >o</div>
+          <div class="square" style="margin-left:30px;">I</div>
+          <div class="square" >'</div>
+          <div class="square" >m</div>
+        </div>
+        <div class="line">
+          <div class="square" >K</div>
+          <div class="square" >a</div>
+          <div class="square" >t</div>
+          <div class="square" >h</div>
+          <div class="square" >y</div>
+        </div>
+      </div>
+    <div class="under-container" style="height:10vh">
+      <div class="mouse">
+        <div class="molette"></div>
+      </div>
+    </div>
+    </div>
+  </div>
+  <body>
+    <section class="bio-section">
+      <div id="about">
+          <h2>ABOUT ME</h2>
+          <div class="content-project-info">
+          <span class="job">SOFTWARE ENGINEER  |  UI/UX DESIGNER</span>
+          <p>I love everything to do with visual and digital design. I have been creating beautifully designed interfaces and experiences for over 5 years. I'm always looking for opportunities to learn and am not afraid to take risks for the sake of making things better. I bridge the gaps between design and code.</p>
+          <div id="resume">
+                  <a class="link-backlight" href="images/Resume_Pangtay_2018.pdf" target="_blank">RESUME</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <section class="project-section">
+      <div id="projects">
+            <h2>PROJECTS</h2>
+            <p>A selection of different projects I've worked on over the years.</p>
+
+      <div class="work2">
+            <a href="project1.html">
+            <img class="anim" src="images/funimation_HomePage.png" alt="project img">
+             </a>
+            <img class="anim" src="images/Galacticode_top.png" alt="project img">
+            <img class="anim" src="images/Galacticode_top.png" alt="project img">
+            <img class="anim" src="images/Galacticode_top.png" alt="project img">
+      </div>
+    </div>
+    </section>
+    <section class="contact-section">
+        <div id="contact">
+            <h2>SAY HELLO</h2>
+            <p>Whether you have a work enquiry or simply want to find out more, let's talk.</p>
+            <form id="form" class="topBefore" action="conatact-form-handler.php" method="post">
+                <input id="name" type="text" placeholder="NAME">
+                <input id="email" type="text" placeholder="E-MAIL">
+                <textarea id="message" type="text" placeholder="MESSAGE"></textarea>
+                <button class="button">SEND MESSAGE</button>
+          </form>
+        </div>
+     </section>
+
+
+    <footer>
+          <span class="copyright">
+             &copy; 2018 Katherine Pangtay designed with ♥
+          </span>
+      </footer>
+      <script type="text/javascript">
+        window.sr = ScrollReveal();
+        sr.reveal('.anim');
+  </script>
+  </body>
+</html>
+
+
