@@ -314,7 +314,7 @@ nav ul li a{
 	.nav-wrapper ul li a{
 		padding: 10px 24px;
 		opacity: 0;
-		color: rgb(39, 71, 248);
+		color: rgb(0, 0, 255);
 		font-size: 2em;
 		letter-spacing: 1.2px;
 		transform: translateX(-20px);
@@ -387,7 +387,7 @@ nav ul li a{
 	}
 /* x button */
 	#nav:checked + .nav-btn i{
-		background-color: rgb(39, 71, 248);
+		background-color: rgb(0, 0, 255);
 	}
 }
 
