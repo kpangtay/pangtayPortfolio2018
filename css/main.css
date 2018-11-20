@@ -392,7 +392,7 @@ nav ul li a{
 }
 
 .gradient-purple-blue {
-  background-image: linear-gradient(30deg, #5a61ed , #6453F7 );
+  background-image: linear-gradient(20deg, #0000ff , #6453F7 );
 }
 
 .under-container {
@@ -504,6 +504,7 @@ nav ul li a{
 }
 
 .button {
+  padding:5px 15px;
   display: block;
   margin: 0 auto;
   height: 45px;
