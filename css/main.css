@@ -505,8 +505,7 @@ nav ul li a{
 
 .button {
   padding:5px 15px;
-  display: block;
-  margin: 0 auto;
+  /* display: inline; */
   height: 45px;
   width: 200px;
   font-size: .7em;
