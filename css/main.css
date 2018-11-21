@@ -506,9 +506,9 @@ nav ul li a{
 
 .button {
   padding:5px 15px;
-  /* display: inline; */
-  height: 45px;
-  width: 200px;
+  display: inline;
+  /* height: 5%;
+  width: 9%; */
   font-size: .7em;
   text-transform: uppercase;
   letter-spacing: .4em;
