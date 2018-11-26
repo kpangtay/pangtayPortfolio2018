@@ -116,7 +116,7 @@ h1{
   padding: 0;
   list-style-type: none;
   font-weight:300;
-  font-size: .8em;
+  font-size: 1em;
 }
 
 .list--horizontal .list__item {
@@ -157,23 +157,10 @@ h1{
   width: 83.33333%
 }
 
-/* .list-project-info__item {
-  display: block;
-  margin-bottom: 1.42857rem;
-  width: 48%;
-  color: #686868;
-  font-size: .85714rem;
-  line-height: 1.21429rem
-}
-
-.list-project-info__item--link {
-  width: 100%;
-  margin-bottom: 3.92857rem
-} */
 
 .list-project-info__label {
-  margin-top: 1em;
-  margin-bottom: .35714rem;
+  margin-top: 1.5em;
+  margin-bottom: 1em;
   color: #1e1e1e;
 }
 
@@ -556,7 +543,7 @@ p{
   width:30px;
   height:50px;
   border:2px solid #fff;
-  border-radius:20px;
+  border-radius:25px;
 }
 
 .molette {
@@ -565,8 +552,8 @@ p{
   height:3px;
   background-color:#fff;
   border: 1px solid #fff;
-  /* border-radius: 10px; */
-  animation: scroll 2s ease infinite;
+  border-radius: 10px;
+  animation: scroll 1.5s ease infinite;
 }
 
 @keyframes scroll {
