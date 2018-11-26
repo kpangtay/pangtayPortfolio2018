@@ -692,8 +692,8 @@ section{
   right: 0;
   margin: 0 auto;
   text-align: center;
-  padding-top: 5.28571rem;
-  padding-bottom: 2.35714rem;
+  padding-top: 2em;
+  padding-bottom: .2em;
   background-color: #FBFBFB;
 }
 
@@ -708,7 +708,8 @@ section{
 .project-section{
   background: #FBFBFB;
 	color: #353639;
-  padding: 35px 50px 35px 50px;
+  padding-top: 1.5em;
+  padding-bottom: .2em;
 }
 
 /*Contact section*/
