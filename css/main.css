@@ -25,6 +25,7 @@ body{
 	height: 100vh;
 	font-family: 'Lato';
   font-weight: 400;
+  background-color: #FBFBFB;
 }
 
 .link-backlight {
@@ -93,7 +94,7 @@ h1{
   left: 0;
   right: 0;
   margin: 0 auto;
-  padding-top: 5.28571rem;
+  padding-top: 1.7em;
   padding-bottom: 2.35714rem;
   background-color: #FBFBFB;
 }
@@ -160,7 +161,7 @@ h1{
 
 .list-project-info__label {
   margin-top: 1.5em;
-  margin-bottom: 1em;
+  margin-bottom: .4em;
   color: #1e1e1e;
 }
 
