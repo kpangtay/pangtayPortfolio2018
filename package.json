@@ -1,0 +1,24 @@
+{
+  "name": "kpangtay.github.io",
+  "version": "1.0.0",
+  "description": "portfolio",
+  "main": "index.js",
+  "dependencies": {
+    "start-server-and-test": "^1.10.11"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server -c-1 -p 8081"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kpangtay/kpangtay.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kpangtay/kpangtay.github.io/issues"
+  },
+  "homepage": "https://github.com/kpangtay/kpangtay.github.io#readme"
+}
