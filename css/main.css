@@ -1,5 +1,6 @@
 
 @import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,900);
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
 
 * {
@@ -173,6 +174,7 @@ nav{
   padding: 0px;
 }
 
+
 .logo{
 	float: left;
 	padding: 8px;
@@ -250,6 +252,19 @@ nav ul li a{
 	.logo {
 		padding:0;
   }
+
+  .slide-in-enter-active, .slide-in-leave-active {
+    -webkit-transition: opacity 1s ease,-webkit-transform 1s ease;
+    transition: opacity 1s ease,-webkit-transform 1s ease;
+    transition: opacity 1s ease,transform 1s ease;
+    transition: opacity 1s ease,transform 1s ease,-webkit-transform 1s ease;
+}
+
+.transition-delay-200 {
+  -webkit-transition-delay: .2s;
+  transition-delay: .2s;
+}
+
 
 	.nav-wrapper{
 		/* Creates the mobile navigation Overlay and covers viewport because it's set to fixed */
@@ -383,7 +398,7 @@ nav ul li a{
 }
 
 .gradient-purple-blue {
-  background-image: linear-gradient(20deg, #0000ff , #6453F7 );
+  background-image: linear-gradient(20deg, #3D4CE0 , #3D4CE0 );
 }
 
 .under-container {
@@ -409,7 +424,8 @@ nav ul li a{
 
 .square {
   font-size:5em;
-  font-weight:900;
+  font-weight:400;
+  font-family: 'Playfair Display', serif;
   align-items: center;
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
@@ -417,6 +433,8 @@ nav ul li a{
   transition:all 0.3s;
   color:#EDEFFB;
 }
+
+
 
 .square:hover {
   color:rgba(8, 122, 253, 0.719);
