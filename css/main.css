@@ -1,6 +1,6 @@
 
 @import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,900);
-
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;800;900&display=swap'); 
 
 * {
   margin: 0;
@@ -167,7 +167,12 @@ h1{
   color: #1e1e1e;
 }
 
-
+.shape-1 {
+  width: 300px;
+  position: absolute;
+  left: -50px;
+  bottom: auto;
+}
 
 nav{
   padding: 0px;
@@ -249,6 +254,22 @@ nav ul li a{
 @media screen and (max-width: 864px){
 	.logo {
 		padding:0;
+  }
+
+  .square {
+    font-size: 3em !important;
+    font-family: 'Playfair Display', serif;
+    font-weight:900;
+    align-items: center;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    cursor:default;
+    transition:all 0.3s;
+    color:#EDEFFB;
+  }
+  
+  .square:hover {
+    color:rgba(8, 122, 253, 0.719);
   }
 
 	.nav-wrapper{
@@ -383,7 +404,7 @@ nav ul li a{
 }
 
 .gradient-purple-blue {
-  background-image: linear-gradient(20deg, #0000ff , #6453F7 );
+  background-image: linear-gradient(0deg, #0000ff , #3D4CE0 );
 }
 
 .under-container {
@@ -409,6 +430,7 @@ nav ul li a{
 
 .square {
   font-size:5em;
+  font-family: 'Playfair Display', serif;
   font-weight:900;
   align-items: center;
   -webkit-animation-duration: 1s;
@@ -698,7 +720,7 @@ section{
   padding-top: 2em;
   padding-bottom: .2em;
   color: #353639;
-  background-color: #FBFBFB;
+  background-color: #EED2CC;
 }
 
 .bio-section .job{
