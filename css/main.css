@@ -1,6 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;900&display=swap');
 
-@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,900);
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;800;900&display=swap'); 
 
 * {
   margin: 0;
@@ -24,8 +23,8 @@ body{
 	/* margin: 0; */
 	width: 100%;
 	height: 100vh;
-	font-family: 'Lato';
-  font-weight: 400;
+	font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
   background-color: #FBFBFB;
 }
 
@@ -70,11 +69,11 @@ h1{
 .link:after{
   content: '';
   position: absolute;
-  width: 0; height: 3px;
+  width: 0; height: 4px;
   display: block;
   margin-top: 5px;
   right: 0;
-  background: #F04D59;
+  background: #ff3636;
   transition: width .2s ease;
   -webkit-transition: width .2s ease;
 }
@@ -82,7 +81,7 @@ h1{
 .link:hover:after{
   width: 100%;
   left: 0;
-  background: #F04D59;
+  background: #ff3636;
 }
 
 
@@ -174,6 +173,38 @@ h1{
   bottom: auto;
 }
 
+
+.text-outline {
+  /* font-weight:900; */
+  color: #E6E8E6;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #3D4CE0;
+
+  display: block;
+  margin-bottom: 6px;
+  margin-top: 8vh;
+  font-size: 10vw;
+  position: relative;
+  z-index: 1;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+ font-weight: 900;
+}
+.text-outline:hover{
+
+  -webkit-text-fill-color: #3D4CE0;
+ 
+ 
+}
+
+.lining{
+  border-bottom: 1px solid rgba(65,8,7,.2);
+    position: absolute;
+    width: 100%;
+}
+
+
 nav{
   padding: 0px;
 }
@@ -186,10 +217,10 @@ nav{
 }
 
 .logo a{
-	color: #EDEFFB;
-	text-transform: uppercase;
-	font-weight: 700;
-	font-size: 18px;
+	color: #271F23;
+	/* text-transform: uppercase; */
+	font-weight: 300;
+	font-size: 1em;
 	letter-spacing: 0;
 	text-decoration: none;
 }
@@ -202,6 +233,11 @@ nav{
 .work2 {
   width: 100%;
   text-align: center;
+}
+.work2 ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .work2 img {
@@ -237,7 +273,7 @@ nav ul li a{
 	/*This makes LI and the A tag the same dimensions*/
 	display: inline-block;
 	outline: none;
-	color: #fff;
+	color: #271F23;
 	text-decoration: none;
 	font-size: 14px;
 	letter-spacing:  1.2px;
@@ -258,7 +294,7 @@ nav ul li a{
 
   .square {
     font-size: 3em !important;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight:900;
     align-items: center;
     -webkit-animation-duration: 1s;
@@ -326,9 +362,10 @@ nav ul li a{
 	.nav-wrapper ul li a{
 		padding: 10px 24px;
 		opacity: 0;
-		color: rgb(0, 0, 255);
-		font-size: 2em;
-		letter-spacing: 1.2px;
+		color:#ff3636;
+    font-size: 3em;
+    letter-spacing: 1.2px;
+    font-weight: 900;
 		transform: translateX(-20px);
 		transition: all 0.2s ease;
 	}
@@ -351,7 +388,7 @@ nav ul li a{
 		display: block;
 		width: 20px;
 		height: 2px;
-		background: #EDEFFB;
+		background:#271F23;
 		border-radius: 2px;
 		margin-left: 14px;
 	}
@@ -399,12 +436,12 @@ nav ul li a{
 	}
 /* x button */
 	#nav:checked + .nav-btn i{
-		background-color: rgb(0, 0, 255);
+		background-color: #ff3636
 	}
 }
 
 .gradient-purple-blue {
-  background-image: linear-gradient(0deg, #0000ff , #3D4CE0 );
+  background-image: linear-gradient(0deg, #F5F1EB , #F5F1EB );
 }
 
 .under-container {
@@ -430,14 +467,14 @@ nav ul li a{
 
 .square {
   font-size:5em;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight:900;
   align-items: center;
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
   cursor:default;
   transition:all 0.3s;
-  color:#EDEFFB;
+  color: #ff3636;
 }
 
 .square:hover {
@@ -519,6 +556,7 @@ nav ul li a{
 .button {
   padding:5px 15px;
   display: inline;
+  font-family: 'Montserrat', sans-serif;
   /* height: 5%;
   width: 9%; */
   font-size: .7em;
@@ -528,7 +566,7 @@ nav ul li a{
   color: #353639;
   background-color: #fff;
   border: none;
-  border-radius: 45px;
+  border-radius: 0px;
   box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease 0s;
   cursor: pointer;
@@ -716,7 +754,7 @@ section{
   left: 0;
   right: 0;
   margin: 0 auto;
-  text-align: center;
+  text-align: left;
   padding-top: 2em;
   padding-bottom: .2em;
   color: #353639;
@@ -730,18 +768,30 @@ section{
 
 }
 
+.about-paragraph{
+  display: inline-block;
+  vertical-align: top;
+  width: calc(100% - 160px);
+}
+.about-paragraph p{
+  display: block;
+  font: 100 32px/1.25 Montserrat;
+}
+
 /*works section*/
 .project-section{
-  background: #FBFBFB;
+  background: #F5F1EB;
 	color: #353639;
   padding-top: 1.5em;
   padding-bottom: .2em;
+  
 }
+
 
 /*Contact section*/
 .contact-section{
-  background: #FBFBFB;
-	color: #353639;
+  background: #271F23;
+	color: #EED2CC;
   padding-top: 1%;
   padding-right: 25%;
   padding-left: 25%;
@@ -756,11 +806,11 @@ section{
 
 input {
   font-size: 0.875em;
-
+  font-family: 'Montserrat', sans-serif;
   margin: 10px 0;
   background: transparent;
   border: 0px;
-  border-bottom: 2px solid #F04D59;
+  border-bottom: 2px solid #EED2CC;
   padding: 10px;
   width:100%;
 
@@ -782,9 +832,9 @@ textarea {
   height: 250px;
 
   max-height: 110px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 0.875em;
-  border-bottom: 2px solid #F04D59;
+  border-bottom: 2px solid #EED2CC;
 
 
   transition: all 0.3s ease-in-out;
@@ -793,9 +843,11 @@ textarea {
   -ms-transition: all 0.3s ease-in-out;
 }
 
+
 footer {
+  font-size: .6em;
   color: #EDEFFB;
-  background: #353639;
+  background: #271F23;
   position: relative;
   bottom: 0px;
   padding: 17px 0 18px 0;

@@ -4,6 +4,7 @@
   "description": "portfolio",
   "main": "index.js",
   "dependencies": {
+    "animate.css": "^3.7.2",
     "start-server-and-test": "^1.10.11"
   },
   "devDependencies": {},
