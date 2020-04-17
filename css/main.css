@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;600;900&display=swap');
 
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
 
 
@@ -19,13 +20,14 @@ html{
 }
 
 body{
-	padding: 0;
+  padding: 0;
+
 	/* margin: 0; */
 	width: 100%;
 	height: 100vh;
 	font-family: 'Montserrat', sans-serif;
+  background-color: #F5F1EB;
   font-weight: 300;
-  background-color: #FBFBFB;
 }
 
 .link-backlight {
@@ -51,6 +53,9 @@ a{
   color: #353639;
 }
 
+strong{
+  font-weight: 600;
+}
 
 h1{
   display: block;
@@ -97,7 +102,7 @@ h1{
   padding-top: 1.7em;
   padding-bottom: 2.35714rem;
   color: #353639;
-  background-color: #FBFBFB;
+  background-color: #F5F1EB;
 }
 
 .content-project-info {
@@ -179,7 +184,7 @@ h1{
   color: #E6E8E6;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: #3D4CE0;
+  -webkit-text-stroke-color: #ff3636;
 
   display: block;
   margin-bottom: 6px;
@@ -193,7 +198,7 @@ h1{
 }
 .text-outline:hover{
 
-  -webkit-text-fill-color: #3D4CE0;
+  -webkit-text-fill-color: #ff3636;
  
  
 }
@@ -219,7 +224,7 @@ nav{
 .logo a{
 	color: #271F23;
 	/* text-transform: uppercase; */
-	font-weight: 300;
+	font-weight: 100;
 	font-size: 1em;
 	letter-spacing: 0;
 	text-decoration: none;
@@ -232,7 +237,18 @@ nav{
 /* .work2 */
 .work2 {
   width: 100%;
-  text-align: center;
+  text-align: initial;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  left: 20%;
+  width: 60%;
+}
+
+.work2 .column{
+  display: block;
+  font-size: 1em;
+
 }
 .work2 ul {
   list-style: none;
@@ -290,6 +306,10 @@ nav ul li a{
 @media screen and (max-width: 864px){
 	.logo {
 		padding:0;
+  }
+
+  h2{
+    letter-spacing: .02em !important;
   }
 
   .bio-section .about-paragraph{
@@ -599,7 +619,7 @@ h2{
   margin: 10px 0 25px 0;
   font-size: 1.7em;
   text-align: center;
-  letter-spacing: 3px;
+  letter-spacing: .1em;
   text-transform: uppercase;
 }
 
@@ -611,7 +631,7 @@ p{
   text-align: initial;
   line-height: 1.4rem;
   letter-spacing: 0.9px;
-  font-weight: 300;
+  font-weight: 100;
 }
 
 
@@ -791,6 +811,7 @@ section{
 }
 
 
+
 /*works section*/
 .project-section{
   background: #F5F1EB;
@@ -803,7 +824,7 @@ section{
 
 /*Contact section*/
 .contact-section{
-  background: #271F23;
+  background: #F5F1EB;
 	color: #EED2CC;
   padding-top: 1%;
   padding-right: 25%;
@@ -860,7 +881,7 @@ textarea {
 footer {
   font-size: .6em;
   color: #EDEFFB;
-  background: #271F23;
+  background: #F5F1EB;
   position: relative;
   bottom: 0px;
   padding: 17px 0 18px 0;
