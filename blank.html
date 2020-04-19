@@ -1,0 +1,77 @@
+<body>
+    <section class="bio-section">
+      <div id="about" class="bio-info">
+         
+          <!-- <div class="animated fadeInUp delay-4s content-project-info"> -->
+          <!-- <span class="job">FRONT-END DEVELOPER AND UI/UX DESIGNER</span> -->
+          <div class="about-paragraph">
+              <h2 style="text-align: initial">HELLO! I'M KATHY.</h2>
+              <p>I have been creating beautifully designed interfaces and experiences for over five years. I enjoy working on projects that require me to push beyond my boundaries and acquire new skills and knowledge in order to succeed. <strong>I bridge the gap between design and code</strong> by combining my technical knowledge and years of design experience to make a beautiful, scalable, and efficient product.</p>
+              <p>When I'm not in front of a computer screen, I'm probably rock climbing, reading, or drawing.
+              </p>
+          </div>
+        <!-- </div> -->
+
+
+      </div>
+      <img class="shape-1" src="images/lined_shape.svg"/>
+    </section>
+    <section class="project-section">
+      <div id="projects">
+            <!-- <h2>PROJECTS</h2>
+            <p>A selection of different projects I've worked on over the years.</p> -->
+
+      <div class="work2">
+        <ul class= " column">
+          <li>
+              <a href="project5.html"class="text-outline">COURANT</a>
+          </li>
+          <li>
+              <a href="project1.html" class="text-outline">FUNIMATION</a>
+          </li>
+          <li>
+              <a href="project2.html" class="text-outline">GALACTICODE</a>
+          </li>
+          <li>
+              <a href="project3.html" class="text-outline">SPEED RACER</a>
+          </li>
+          <li>
+              <a href="project4.html" class="text-outline">RAMEN SHOYU</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    </section>
+    <section class="contact-section">
+        <div id="contact">
+            <h2>SAY HELLO</h2>
+            <p>Whether you have a work enquiry or simply want to find out more, let's talk.</p>
+            <form id="contactform" class="topBefore" method="POST">
+                <input type="text" name="name" placeholder="NAME">
+                <input type="email" name="_replyto" placeholder="EMAIL">
+                <input type="hidden" name="_subject" value="Website contact" />
+                <textarea name="message" placeholder="MESSAGE"></textarea>
+                <input type="text" name="_gotcha" style="display:none" />
+                <button style="margin-top: 5%"class="button" type="submit">SEND MESSAGE</button>
+            </form>
+            <script>
+                var contactform =  document.getElementById('contactform');
+                contactform.setAttribute('action', '//formspree.io/' + 'kpangtay' + '@' + 'gmail' + '.' + 'com');
+            </script>
+        </div>
+     </section>
+
+
+    <footer>
+          <span class="copyright">
+             &copy; 2020 Katherine Pangtay designed &amp; developed with ♥
+          </span>
+      </footer>
+      <script type="text/javascript">
+        window.sr = ScrollReveal();
+        sr.reveal('.anim');
+  </script>
+  		<script src="js/charming.min.js"></script>
+		<script src="js/TweenMax.min.js"></script>
+		<script src="js/demo.js"></script>
+  </body>
