@@ -16,7 +16,7 @@ audio,canvas,video{display:inline-block;}audio:not([controls]){display:none;heig
 
 body {
 	--color-text: #272222;
-	--color-bg: #faf6f1;
+	--color-bg: #FDE7DB;
 	--color-link: #e2af68;
 	--color-link-hover: #333;
 	--color-content-link: #000;
