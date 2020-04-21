@@ -817,16 +817,16 @@ section{
   -webkit-box-ordinal-group: 1;
   -webkit-order: 0;
   -ms-flex-order: 0;
-  order: 0;
+  /* order: 0;
   position: relative;
   left: 0;
   right: 0;
-  margin: 0 auto;
+  margin: 0 auto; */
   text-align: left;
   /* padding-top: 2em;
   padding-bottom: .2em; */
   color: #353639;
-  background-color: #F5F1EB;
+  /* background-color: #F5F1EB; */
 }
 .bio-section .bio-info{
   position: relative;
