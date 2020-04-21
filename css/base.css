@@ -1,13 +1,18 @@
-article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block;}audio,canvas,video{display:inline-block;}audio:not([controls]){display:none;height:0;}[hidden]{display:none;}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;}body{margin:0;}a:focus{outline:thin dotted;}a:active,a:hover{outline:0;}h1{font-size:2em;margin:0.67em 0;}abbr[title]{border-bottom:1px dotted;}b,strong{font-weight:bold;}dfn{font-style:italic;}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0;}mark{background:#ff0;color:#000;}code,kbd,pre,samp{font-family:monospace,serif;font-size:1em;}pre{white-space:pre-wrap;}q{quotes:"\201C" "\201D" "\2018" "\2019";}small{font-size:80%;}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline;}sup{top:-0.5em;}sub{bottom:-0.25em;}img{border:0;}svg:not(:root){overflow:hidden;}figure{margin:0;}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:0.35em 0.625em 0.75em;}legend{border:0;padding:0;}button,input,select,textarea{font-family:inherit;font-size:100%;margin:0;}button,input{line-height:normal;}button,select{text-transform:none;}button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer;}button[disabled],html input[disabled]{cursor:default;}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0;}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box;}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none;}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}textarea{overflow:auto;vertical-align:top;}table{border-collapse:collapse;border-spacing:0;}
+audio,canvas,video{display:inline-block;}audio:not([controls]){display:none;height:0;}[hidden]{display:none;}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;}body{margin:0;}a:focus{outline:thin dotted;}a:active,a:hover{outline:0;}h1{font-size:2em;margin:0.67em 0;}abbr[title]{border-bottom:1px dotted;}b,strong{font-weight:bold;}dfn{font-style:italic;}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0;}mark{background:#ff0;color:#000;}code,kbd,pre,samp{font-family:monospace,serif;font-size:1em;}pre{white-space:pre-wrap;}q{quotes:"\201C" "\201D" "\2018" "\2019";}small{font-size:80%;}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline;}sup{top:-0.5em;}sub{bottom:-0.25em;}img{border:0;}svg:not(:root){overflow:hidden;}figure{margin:0;}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:0.35em 0.625em 0.75em;}legend{border:0;padding:0;}button,input,select,textarea{font-family:inherit;font-size:100%;margin:0;}button,input{line-height:normal;}button,select{text-transform:none;}button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer;}button[disabled],html input[disabled]{cursor:default;}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0;}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box;}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none;}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}textarea{overflow:auto;vertical-align:top;}table{border-collapse:collapse;border-spacing:0;}
 *,
 *::after,
 *::before {
+	margin: 0;
+	padding: 0;
 	box-sizing: border-box;
 }
 
 :root {
 	font-size: 14px;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;600;900&display=swap');
+
 
 body {
 	--color-text: #272222;
@@ -20,30 +25,61 @@ body {
 	--font-content: Cardo;
 	color: var(--color-text);
 	background-color: var(--color-bg);
-	font-family: Futura, 'Nunito Sans', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
 }
 
-.demo-2 {
-	--color-text: #faf6f1;
-    --color-bg: #191817;
-    --color-link: #c3846e;
-    --color-link-hover: #fff;
-    --color-content-link: #FAF6F1;
-    --color-content-link-hover: #FAF6F1;
-    --color-heading: #4c4742;
-    --font-content: 'Antic Didone';
+/*NAVIGATION */
+a{
+	text-decoration: none;
+	color: #271F23;
+  }
+  
+  strong{
+	font-weight: 600;
+  }
+
+.link{
+	position: relative;
+	text-decoration: none;
+  }
+  
+  .link:after{
+	content: '';
+	position: absolute;
+	width: 0; height: 4px;
+	display: block;
+	margin-top: 5px;
+	right: 0;
+	background: #ff3636;
+	transition: width .2s ease;
+	-webkit-transition: width .2s ease;
+  }
+  
+  .link:hover:after{
+	width: 100%;
+	left: 0;
+	background: #ff3636;
+  }
+
+.logo{
+	float: left;
+	padding: 8px;
+	margin-left: 16px;
+	margin-top: 8px;
 }
 
-.demo-3 {
-	--color-text: #191a1b;
-    --color-bg: #c5a98a;
-    --color-link: #3c49b2;
-    --color-link-hover: #191b1b;
-    --color-content-text: #191b1b;
-    --color-content-link: #191b1b;
-    --color-content-link-hover: #191b1b;
-   	--color-content-secondary: #9f8465;
-    --font-content: Prata;
+.logo a{
+	color: #271F23;
+	/* text-transform: uppercase; */
+	font-weight: 100;
+	font-size: 1em;
+	letter-spacing: 2px;
+	text-decoration: none;
+}
+
+.hidden{
+	display: none;
 }
 
 nav{
@@ -89,39 +125,14 @@ nav{
 		padding:10px;
   }
 
+  .menu{
+	font-size: 6vh !important;
+  }
+
   h2{
     letter-spacing: .02em !important;
   }
 
-  .bio-section .about-paragraph{
-    display: block;
-    font-size: 1em;
-    margin: 0 3vw 0 3vw;
-    
-    
-
-  }
-
-  .bio-section .bio-info{
-    left: 0 !important;
-    width: 100% !important;
-  }
-
-  .square {
-    font-size: 3em !important;
-    font-family: 'Montserrat', sans-serif;
-    font-weight:900;
-    align-items: center;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    cursor:default;
-    transition:all 0.3s;
-    color:#EDEFFB;
-  }
-  
-  .square:hover {
-    color:#271F23;
-  }
 
 	.nav-wrapper{
 		/* Creates the mobile navigation Overlay and covers viewport because it's set to fixed */
@@ -189,7 +200,7 @@ nav{
 		/* Creates the mobile hamburger button and positions on the right side */
 		position: fixed;
 		outline: 0;
-		right: 10px;
+		right: 40px;
 		top: 10px;
 		display: block;
 		width: 48px;
