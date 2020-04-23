@@ -22,7 +22,6 @@ body {
 	--color-content-link: #000;
 	--color-content-link-hover: #000;
 	--color-heading: #d1cfcf;
-	--font-content: Cardo;
 	color: var(--color-text);
 	background-color: var(--color-bg);
 	font-family: 'Montserrat', sans-serif;
@@ -127,6 +126,8 @@ nav{
 
   .menu{
 	font-size: 6vh !important;
+	padding-top: 5em;
+	padding-left: 2em;
   }
 
   h2{
@@ -199,7 +200,7 @@ nav{
 		/* Creates the mobile hamburger button and positions on the right side */
 		position: fixed;
 		outline: 0;
-		right: 40px;
+	    left: 29em;
 		top: 10px;
 		display: block;
 		width: 48px;
@@ -405,11 +406,12 @@ a:focus {
 
 .menu {
 	display: flex;
-	flex-direction: column;
+	flex-direction: column !important;
 	align-items: stretch;
-	text-align: center;
-	font-size: 10vh;
-	font-weight: normal;
+    text-align: initial;
+    font-size: 10vh;
+    font-weight: 900;
+    text-transform: uppercase;
 }
 
 .demo-2 .menu {
