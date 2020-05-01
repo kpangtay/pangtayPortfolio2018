@@ -124,7 +124,7 @@ h1{
 }
 
 .project-header{
-  background-color: #F5EFE0;
+  background-color:  #FDE7DB;
   box-sizing: border-box;
   min-width: 0px;
   -webkit-box-pack: center;
@@ -140,7 +140,7 @@ h1{
 .project-header-title{
   box-sizing: border-box;
     min-width: 0px;
-    color: rgb(84, 84, 255);
+    color: #EA5439;
     display: inline-block;
     line-height: 1em;
     margin: 0px;
@@ -149,7 +149,7 @@ h1{
 
 .project-header-under{
   font-size: .3em;
-  font-weight: 200;
+  font-weight: 300;
   letter-spacing: 3px;
 }
 }
@@ -427,7 +427,7 @@ nav ul li a{
 
   .project-header-under {
     font-size: .1em;
-    font-weight: 200;
+    font-weight: 300;
     letter-spacing: 3px;
 }
 
