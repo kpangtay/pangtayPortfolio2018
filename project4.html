@@ -1,59 +1,61 @@
 <!doctype html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>Pangtay Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1">
     <link rel="icon" type="image/png" href="/images/logoSMALL.png">
     <link rel="stylesheet" href="css/main.css">
     <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
-  </head>
-  <a style="float: right; z-index: 1; padding: .8em;" href="/" data-measure="close:click:close">
-    <span class="button">CLOSE</span>
-  </a>
-  <body>
-      <header>
-           <img srcset="images/ramenShoyu_HeaderFull.png 414w, images/ramenShoyu_HeaderFull.png  1920w" src="images/ramenShoyu_HeaderFull.png">
-      </header>
-      <section class="section-project-info">
-            <div class="content-project-info">
-              <h2>Ramen Shop E-Commerce Website</h2>
-                <p>An e-commerce application for a fictional ramen shop</p>
-            </div>
-            <ul class="list list-project-info">
-                <li class="list__item list-project-info__item list-project-info__item--link">
-                    <a class="link-backlight" href="http://ramentestdeploy.herokuapp.com/" target="_blank">VISIT WEBSITE</a>
-                </li>
-                <li class="list__item list-project-info__item">
-                    <div>
-                        <div class="list-project-info__label">DEVELOPMENT &amp; DESIGN</div>
-                        <ul class="list">
-                                <li class="list__item">As part of a team I assisted in developing and designing the website. I created mockups of the site UI/UX for use in development.</li>
-                        </ul>
-                    </div>
-                </li>
-            </ul>
-            <div class="work2">
-                <img class="anim" src="images/ramenShoyu_Selection_03.png" alt="project img">
-                <img class="anim" src="images/ramenShoyu_Order_02.png" alt="project img">
-                <img class="anim" src="images/ramenShoyu_AccountInfo_01.png" alt="project img">
-                <a class="button button-close" href="index.html" data-measure="close:click:close" style="visibility: inherit; opacity: 1;">
-                  <span class="button-close__color">OTHER PROJECTS</span>
-                </a>
-          </div>
+</head>
 
-      </section>
+<body>
+    <header class="project-header">
+        <div class="position-top-right" style="    position: fixed;
+         z-index: 3; visibility: inherit; opacity: 1;">
+            <a style="    z-index: 3;
+                visibility: inherit;
+                opacity: 1;" href="/index1.html" data-measure="close:click:close">
+                <span class="link" style="
+                      font-size: .7em;
+    color: #EA5439;
+    font-weight: 900;
+              ">BACK</span>
+            </a>
+
+        </div>
+
+        <h1>
+            <span class="project-header-title">RAMEN SHOYU</span><br>
+            <span class="project-header-under">UI/UX Designer | Developer | E-commerce /span>
+        </h1>
+    </header>
+    <section style=" background-color: #FFFCFB; padding-top: 70px;">
+        <div class="content-project-info">
+            <p>An e-commerce application for a fictional ramen shop.</p>
+            <p>As part of a team I assisted in developing and designing the website. I created the mockups and wire-frames of the site for use in development.</p>
+            <a class="link-view" href="http://ramentestdeploy.herokuapp.com/" target="_blank">VISIT WEBSITE</a>
+        </div>
+        <div class="work2">
+            <img class="anim" src="images/ramenShoyu_Selection_03.png" alt="project img">
+            <img class="anim" src="images/ramenShoyu_Order_02.png" alt="project img">
+            <img class="anim" src="images/ramenShoyu_AccountInfo_01.png" alt="project img">    
+        </div>
+        <a class="next" href="/project5.html" style="padding-top: 250px;">
+            <div class="next__content sides">
+                <div class="next__sub text-14">Next Project</div>
+                <div class="next__title text-75" data-title="Courant">COURANT</div>
+            </div>
+        </a>
+
+    </section>
     </div>
-    <footer>
-          <span class="copyright">
-             &copy; 2018 Katherine Pangtay designed with ♥
-          </span>
-      </footer>
-      <script type="text/javascript">
+
+    <script type="text/javascript">
         window.sr = ScrollReveal();
         sr.reveal('.anim');
-  </script>
-  </body>
+    </script>
+</body>
+
 </html>
-
-
