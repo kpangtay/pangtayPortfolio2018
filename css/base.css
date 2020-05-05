@@ -12,7 +12,7 @@ audio,canvas,video{display:inline-block;}audio:not([controls]){display:none;heig
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;600;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;900&display=swap');
 
 body {
 	--color-text: #272222;
@@ -78,6 +78,7 @@ a{
 }
 
 
+/* Hides the input checkbox field on desktop and mobile */
 
 .hidden{
 	display: none;
@@ -121,15 +122,20 @@ nav{
   
 
 
-@media screen and (max-width: 864px){
+@media screen and (max-width: 740px){
 	.logo {
 		padding:10px;
   }
 
   .menu{
-	font-size: 6vh !important;
-	padding-top: 5em;
-	padding-left: 2em;
+	font-size: 3em !important;
+	display: block;
+	width: 90%;
+	max-width: 1200px;
+	margin: 0 auto;
+	font-size: 2rem;
+	z-index: 999;
+	font-weight: normal;
   }
 
   h2{
@@ -144,8 +150,8 @@ nav{
 		left: 0;
 		width: 100%;
 		height:  100%;
-		z-index: -1;
-		transition: all 0.2s ease;
+		z-index: -30;
+		transition: all 0.3s ease;
 	}
 
 	.nav-wrapper ul {
@@ -202,13 +208,13 @@ nav{
 		/* Creates the mobile hamburger button and positions on the right side */
 		position: fixed;
 		outline: 0;
-	    left: 29em;
+		right: 10px;
 		top: 10px;
 		display: block;
 		width: 48px;
 		height: 48px;
 		cursor: pointer;
-		z-index: 10;
+		z-index: 10001;
 		border-radius: 50%;
 	}
 
@@ -255,7 +261,7 @@ nav{
 
 	#nav:checked ~ .nav-wrapper{
 		opacity: 1;
-		z-index: 9;
+		z-index: 10001;
 		background: #F9A688;
 	}
 
@@ -407,18 +413,22 @@ a:focus {
 }
 
 .menu {
-	display: flex;
+	/* display: flex;
 	flex-direction: column !important;
 	align-items: stretch;
     text-align: initial;
     font-size: 10vh;
     font-weight: 900;
-    text-transform: uppercase;
+	text-transform: uppercase; */
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	text-align: center;
+	font-size: 5em;
+	font-weight: 400;
+	font-family: 'Playfair Display', serif;
 }
 
-.demo-2 .menu {
-	line-height: 1.5;
-}
 
 .quote {
 	display: block;
