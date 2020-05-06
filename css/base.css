@@ -12,15 +12,16 @@ audio,canvas,video{display:inline-block;}audio:not([controls]){display:none;heig
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;600;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo:wght@400;700&display=swap');
+
 
 body {
-	--color-text: #272222;
-	--color-bg: #FDE7DB;
-	--color-link: #e2af68;
+	--color-text: ##272727;
+	--color-bg: #F5F0EA;
+	--color-link: #EA5439;
 	--color-link-hover: #333;
-	--color-content-link: #000;
-	--color-content-link-hover: #000;
+	--color-content-link: #EA5439;
+	--color-content-link-hover: #EA5439;
 	--color-heading: #d1cfcf;
 	color: var(--color-text);
 	background-color: var(--color-bg);
@@ -31,7 +32,7 @@ body {
 /*NAVIGATION */
 a{
 	text-decoration: none;
-	color: #271F23;
+	color: #272727;
   }
   
   strong{
@@ -50,7 +51,7 @@ a{
 	display: block;
 	margin-top: 5px;
 	right: 0;
-	background: #ff3636;
+	background: #EA5439;
 	transition: width .2s ease;
 	-webkit-transition: width .2s ease;
   }
@@ -58,7 +59,7 @@ a{
   .link:hover:after{
 	width: 100%;
 	left: 0;
-	background: #ff3636;
+	background: #EA5439;
   }
 
 .logo{
@@ -69,9 +70,9 @@ a{
 }
 
 .logo a{
-	color: #271F23;
+	color: #272727;
 	/* text-transform: uppercase; */
-	font-weight: 100;
+	font-weight: 900;
 	font-size: 1em;
 	letter-spacing: 2px;
 	text-decoration: none;
@@ -109,7 +110,7 @@ nav{
 	  /*This makes LI and the A tag the same dimensions*/
 	  display: inline-block;
 	  outline: none;
-	  color: #271F23;
+	  color: #272727;
 	  text-decoration: none;
 	  font-size: 14px;
 	  letter-spacing:  1.2px;
@@ -128,6 +129,7 @@ nav{
   }
 
   .menu{
+	text-transform: uppercase;
 	font-size: 3em !important;
 	display: block;
 	width: 90%;
@@ -196,7 +198,7 @@ nav{
 	.nav-wrapper ul li a{
 		padding: 10px 24px;
 		opacity: 0;
-		color:#ff3636;
+		color:#EA5439;
     font-size: 3em;
     letter-spacing: 1.2px;
     font-weight: 900;
@@ -222,7 +224,7 @@ nav{
 		display: block;
 		width: 20px;
 		height: 2px;
-		background:#271F23;
+		background:#272727;
 		border-radius: 2px;
 		margin-left: 14px;
 	}
@@ -271,7 +273,7 @@ nav{
 	}
 /* x button */
 	#nav:checked + .nav-btn i{
-		background-color: #ff3636
+		background-color: #EA5439
 	}
 }
 /* Page Loader */
@@ -426,7 +428,8 @@ a:focus {
 	text-align: center;
 	font-size: 5em;
 	font-weight: 400;
-	font-family: 'Playfair Display', serif;
+	font-family: 'Cardo', serif;
+	text-transform: uppercase;
 }
 
 

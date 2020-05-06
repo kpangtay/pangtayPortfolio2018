@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;600;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo:wght@400;700&display=swap');
+
 
 * {
   margin: 0;
@@ -21,8 +22,8 @@ html{
 
 body{
   margin: 0;
-	--color-text: #111;
-	--color-bg: #FDE7DB;
+	--color-text: #272727;
+	--color-bg: #F5F0EA;
 	--color-link: #b19e7f;
 	--color-link-hover: #000;
 	color: var(--color-text);
@@ -64,7 +65,7 @@ main::before {
 
 .link-view{
   text-decoration: underline;
-  color: red;
+  color: #EA5439;
   line-height: 1.4rem;
   letter-spacing: 0.9px;
   font-weight: 300;
@@ -73,7 +74,7 @@ main::before {
 
 a{
   text-decoration: none;
-  color: #271F23;
+  color: ##272727;
 }
 
 h3{
@@ -106,7 +107,7 @@ h1{
   display: block;
   margin-top: 5px;
   right: 0;
-  background: #ff3636;
+  background: #EA5439;
   transition: width .2s ease;
   -webkit-transition: width .2s ease;
 }
@@ -114,7 +115,7 @@ h1{
 .link:hover:after{
   width: 100%;
   left: 0;
-  background: #ff3636;
+  background: #EA5439;
 }
 
 .section-header-about-info{
@@ -124,7 +125,7 @@ h1{
 }
 
 .project-header{
-  background-color:  #FDE7DB;
+  background-color:  #F5F0EA;
   box-sizing: border-box;
   min-width: 0px;
   -webkit-box-pack: center;
@@ -145,6 +146,7 @@ h1{
     line-height: 1em;
     margin: 0px;
     font-size: 3em;
+    font-family: 'Cardo', serif;
 }
 
 .project-header-under{
@@ -262,7 +264,7 @@ h1{
 }
 .text-outline:hover{
 
-  -webkit-text-fill-color: #ff3636;
+  -webkit-text-fill-color: #EA5439;
  
  
 }
@@ -285,7 +287,7 @@ h1{
 .logo a{
 	color: #271F23;
 	/* text-transform: uppercase; */
-	font-weight: 100;
+	font-weight: 900;
 	font-size: 1em;
 	letter-spacing: 2px;
 	text-decoration: none;
@@ -433,6 +435,7 @@ nav ul li a{
     margin-bottom: -.5em;
     font-size: 1em;
     letter-spacing: inherit;
+    font-family: 'Cardo', serif;
   }
 
   .project-header-under {
@@ -464,12 +467,11 @@ nav ul li a{
     display: flex;
     align-items: center;
     justify-content: center;
-
-
   }
-  .wrapper h1{
-    font-size: 1em !important;
-  }
+
+.about-paragraph p{
+  font-size: 3em !important;
+}
 
   h2{
     letter-spacing: .02em !important;
@@ -491,7 +493,7 @@ nav ul li a{
 
   .square {
     font-size: 3em !important;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Cardo', serif;
     font-weight:900;
     align-items: center;
     -webkit-animation-duration: 1s;
@@ -502,7 +504,7 @@ nav ul li a{
   }
   
   .square:hover {
-    color:#271F23;
+    color:#F5A88E;
   }
 
 	.nav-wrapper{
@@ -638,7 +640,7 @@ nav ul li a{
 }
 
 .gradient-purple-blue {
-  background-image: linear-gradient(0deg, #FDE7DB , #FDE7DB );
+  background-image: linear-gradient(0deg, #F5F0EA , #F5F0EA );
 }
 
 .under-container {
@@ -654,12 +656,12 @@ nav ul li a{
   position: absolute;
   /* width: 500px;
   height: 500px; */
-  top: 50%;
-  left: 50%;
+  top: 90%;
+  left: 60%;
   margin: -250px;
 }
 .wrapper span {
-  background: #F8A887;
+  background: #F5F0EA;
   position: absolute;
   border-radius: 50%;
   display: inline-block;
@@ -928,19 +930,19 @@ nav ul li a{
 }
 
 .square {
-  font-size:5em;
-  font-family: 'Montserrat', sans-serif;
+  font-size:9em;
+  font-family: 'Cardo', serif;
   font-weight:900;
   align-items: center;
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
   cursor:default;
   transition:all 0.3s;
-  color: #ff3636;
+  color: #EA5439;
 }
 
 .square:hover {
-  color:#271F23;
+  color: #F5A88E;
 }
 
 @-webkit-keyframes rubberBand {
@@ -1434,7 +1436,7 @@ will-change: transform;
 
 /*works section*/
 .project-section{
-  background: #FDE7DB;
+  background: #F5F0EA;
 	color: #271F23;
   padding-top: 1.5em;
   padding-bottom: 7em;
@@ -1481,8 +1483,8 @@ will-change: transform;
 
 }
 
-/* 
-@media (min-width: 1320px){ */
+
+
   .copyright {
     position: fixed;
     transform-origin: bottom left;
@@ -1495,7 +1497,6 @@ will-change: transform;
     font-size: .5em;
 }
 
-/* } */
 
 
 
@@ -1546,9 +1547,30 @@ textarea {
 
 
 footer {
-  height: 100vh;
-  position: relative;
-  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+}
+
+.socials{
+  font-family: 'Cardo', serif; 
+  font-weight: 400;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+}
+
+.socials a{
+  transform: translateY(0%);
+  opacity: 1;
+  color: #272727;
+    display: block;
+    margin: 0 50px;
+    transition: color .4s cubic-bezier(.215,.61,.355,1);
 }
 
 /* footer a:hover {
