@@ -388,6 +388,18 @@ nav ul li a{
 		padding:10px;
   }
 
+  .bio-info  h1{
+    font-family: 'Cardo', serif;
+    font-weight: 600;
+    text-align: initial;
+    
+    text-transform: uppercase;
+    padding-bottom: 70px !important;
+    padding-top: 20px !important;
+    font-size: 3vw !important;
+    line-height: 1.5;
+  }
+
   .next__title {
     display: block;
     line-height: 1;
@@ -470,7 +482,7 @@ nav ul li a{
   }
 
 .about-paragraph p{
-  font-size: 3em !important;
+  font-size: 1.3em !important;
 }
 
   h2{
@@ -560,7 +572,7 @@ nav ul li a{
 	.nav-wrapper ul li a{
 		padding: 10px 24px;
 		opacity: 0;
-		color:#F8F3F0;
+		color:#272727;
     font-size: 3em;
     letter-spacing: 1.2px;
     font-weight: 900;
@@ -626,7 +638,7 @@ nav ul li a{
 	#nav:checked ~ .nav-wrapper{
 		opacity: 1;
     z-index: 9;
-    background: #EA5439;
+    background: #F5A88E;
 	}
 
 	#nav:checked ~ .nav-wrapper ul li a{
@@ -1341,6 +1353,30 @@ section{
   font-weight: 200;
   font-size: 1.2em;
   line-height: 1.4;
+}
+
+.bio-info  h1{
+  font-family: 'Cardo', serif;
+  font-weight: 600;
+  text-align: initial;
+  
+  text-transform: uppercase;
+  padding-bottom: 140px;
+  padding-top: 80px;
+
+  font-size: 4vw;
+  line-height: 1.5;
+}
+
+.contact h1{
+  font-family: 'Cardo', serif;
+  font-weight: 400;
+  text-align: initial;
+  max-width: 18em;
+  padding-bottom: 140px;
+  padding-top: 80px;
+  font-size: 4vw;
+  line-height: 1.5;
 }
 
 .bio-section .about-paragraph h3{ 
