@@ -1377,6 +1377,7 @@ section{
   padding-top: 80px;
   font-size: 4vw;
   line-height: 1.5;
+  letter-spacing: 0;
 }
 
 .bio-section .about-paragraph h3{ 
