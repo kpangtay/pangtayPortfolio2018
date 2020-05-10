@@ -120,12 +120,28 @@ nav{
 	padding-top: 25%;
 	  text-transform: uppercase;
   }
+
+  .copyright {
+    position: fixed;
+    transform-origin: bottom left;
+    transform: rotate(-90deg);
+    bottom: 30px;
+    left: 40px;
+    text-align: left;
+    text-align: initial;
+    font-weight: 200;
+    font-size: .5em;
+}
   
 
 
 @media screen and (max-width: 740px){
 	.logo {
 		padding:10px;
+  }
+
+  .copyright{
+    display:none !important;
   }
 
   .menu{

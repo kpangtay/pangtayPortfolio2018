@@ -390,6 +390,17 @@ nav ul li a{
 		padding:10px;
   }
 
+  .socials{
+    justify-content: space-between !important;
+    width: 100%;
+    padding: 0 12vw;
+    display: flex;
+  }
+  
+  .socials a{
+    margin: 0 !important;
+  }
+
   .contact{
     padding-left: 35px !important;
   }
@@ -675,12 +686,10 @@ nav ul li a{
   position: absolute;
   /* width: 500px;
   height: 500px; */
-  top: 90%;
-  left: 60%;
-  margin: -250px;
+
 }
 .wrapper span {
-  background: #F5F0EA;
+  background: #FAE6DA;
   position: absolute;
   border-radius: 50%;
   display: inline-block;
@@ -1603,7 +1612,7 @@ footer {
 .socials{
   font-family: 'Cardo', serif; 
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
   display: flex;
   justify-content: center;
 }
