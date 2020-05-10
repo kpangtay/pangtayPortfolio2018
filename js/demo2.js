@@ -58,8 +58,8 @@
     
     const createBlotterText = () => {
         const text = new Blotter.Text(textEl.innerHTML, {
-            family : "'Playfair Display',serif",
-            weight: 900,
+            family: "'Cardo', serif",
+            weight: 700,
             size : 200,
             paddingLeft: 100,
             paddingRight: 100,
@@ -102,7 +102,7 @@
 
     WebFont.load({
         google: {
-            families: ['Playfair+Display:900']
+            families: ['Cardo:700']
         },
         active: () => createBlotterText()
     });

@@ -380,7 +380,9 @@ nav ul li a{
 	text-transform: uppercase;
 }
 
-
+.contact{
+  padding-left: 180px;
+}
 
 
 @media screen and (max-width: 864px){
@@ -388,11 +390,15 @@ nav ul li a{
 		padding:10px;
   }
 
+  .contact{
+    padding-left: 35px !important;
+  }
+
   .bio-info  h1{
     font-family: 'Cardo', serif;
     font-weight: 600;
     text-align: initial;
-    
+    padding-left: 2.5vw;
     text-transform: uppercase;
     padding-bottom: 70px !important;
     padding-top: 20px !important;
@@ -458,6 +464,7 @@ nav ul li a{
 
   .contact-me h3{
     padding-top: 20% !important;
+
   
   }
 

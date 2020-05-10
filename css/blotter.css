@@ -1,4 +1,4 @@
-article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block;}audio,canvas,video{display:inline-block;}audio:not([controls]){display:none;height:0;}[hidden]{display:none;}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;}body{margin:0;}a:focus{outline:thin dotted;}a:active,a:hover{outline:0;}h1{font-size:2em;margin:0.67em 0;}abbr[title]{border-bottom:1px dotted;}b,strong{font-weight:bold;}dfn{font-style:italic;}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0;}mark{background:#ff0;color:#000;}code,kbd,pre,samp{font-family:monospace,serif;font-size:1em;}pre{white-space:pre-wrap;}q{quotes:"\201C" "\201D" "\2018" "\2019";}small{font-size:80%;}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline;}sup{top:-0.5em;}sub{bottom:-0.25em;}img{border:0;}svg:not(:root){overflow:hidden;}figure{margin:0;}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:0.35em 0.625em 0.75em;}legend{border:0;padding:0;}button,input,select,textarea{font-family:inherit;font-size:100%;margin:0;}button,input{line-height:normal;}button,select{text-transform:none;}button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer;}button[disabled],html input[disabled]{cursor:default;}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0;}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box;}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none;}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}textarea{overflow:auto;vertical-align:top;}table{border-collapse:collapse;border-spacing:0;}
+article,aside,details,figcaption,figure,footer,header,hgroup,main,section,summary{display:block;}audio,canvas,video{display:inline-block;}audio:not([controls]){display:none;height:0;}[hidden]{display:none;}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;}body{margin:0;}a:focus{outline:thin dotted;}a:active,a:hover{outline:0;}h1{font-size:2em;margin:0.67em 0;}abbr[title]{border-bottom:1px dotted;}b,strong{font-weight:bold;}dfn{font-style:italic;}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0;}mark{background:#ff0;color:#000;}code,kbd,pre,samp{font-family:monospace,serif;font-size:1em;}pre{white-space:pre-wrap;}q{quotes:"\201C" "\201D" "\2018" "\2019";}small{font-size:80%;}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline;}sup{top:-0.5em;}sub{bottom:-0.25em;}img{border:0;}svg:not(:root){overflow:hidden;}figure{margin:0;}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:0.35em 0.625em 0.75em;}legend{border:0;padding:0;}button,input,select,textarea{font-family:inherit;font-size:100%;margin:0;}button,input{line-height:normal;}button,select{text-transform:none;}button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer;}button[disabled],html input[disabled]{cursor:default;}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0;}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box;}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none;}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}textarea{overflow:auto;vertical-align:top;}table{border-collapse:collapse;border-spacing:0;}
 *,
 *::after,
 *::before {
@@ -9,29 +9,159 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
 	font-size: 16px;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;600;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo:wght@400;700&display=swap');
+
+
 body {
-	--color-text: #99a3bb;
-    --color-bg: #2b313e;
+	--color-text: #272727;
+    --color-bg: #F5F0EA;
     --color-link: #59647e;
     --color-link-hover: #cc8678;
     --color-overlay: #451a11;
     --color-tagline: #c69f64;
 	color: var(--color-text);
 	background-color: var(--color-bg);
-	font-family: Futura, 'IBM Plex Sans', Arial, sans-serif;
-	font-weight: 500;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
 
 
 .demo-2 {
-	--color-text: #000;
+	--color-text:#272727;
 	--color-bg: #F5F0EA;
 	--color-link: #7f746d;
 	--color-link-hover: #000;
 	--color-tagline: #fff;
 	overflow: hidden;
+}
+.link-view{
+	text-decoration: underline;
+	color: #EA5439;
+	line-height: 1.4rem;
+	letter-spacing: 0.9px;
+	font-weight: 300;
+	font-size: .8em;
+  }
+  
+  a{
+	text-decoration: none;
+	color: ##272727;
+  }
+  
+  h3{
+	font-size: .7em;
+  }
+  strong{
+	font-weight: 600;
+  }
+  
+  h1{
+	display: block;
+	position: relative;
+	margin: 10px 0 25px 0;
+	font-size: 2.3em;
+	text-align: center;
+	letter-spacing: 7px;
+  }
+
+
+.link{
+	position: relative;
+	text-decoration: none;
+  }
+  
+  .link:after{
+	content: '';
+	position: absolute;
+	width: 0; height: 4px;
+	display: block;
+	margin-top: 5px;
+	right: 0;
+	background: #EA5439;
+	transition: width .2s ease;
+	-webkit-transition: width .2s ease;
+  }
+  
+  .link:hover:after{
+	width: 100%;
+	left: 0;
+	background: #EA5439;
+  }
+
+
+
+.logo{
+	float: left;
+	padding: 8px;
+	margin-left: 16px;
+	margin-top: 8px;
+}
+
+.logo a{
+	color: #271F23;
+	/* text-transform: uppercase; */
+	font-weight: 900;
+	font-size: 1em;
+	letter-spacing: 2px;
+	text-decoration: none;
+}
+
+.copyright {
+    position: fixed;
+    transform-origin: bottom left;
+    transform: rotate(-90deg);
+    bottom: 30px;
+    left: 40px;
+    text-align: left;
+    text-align: initial;
+    font-weight: 200;
+    font-size: .5em;
+}
+
+
+/* Hides the input checkbox field on desktop and mobile */
+.hidden{
+	display: none;
+}
+
+
+nav{
+  padding: 0px;
+}
+
+nav ul{
+	float: right;
+}
+
+nav ul li{
+	display: inline-block;
+	/* float: left; */
+}
+
+nav ul li:not(:first-child) {
+	margin-left: 48px;
+}
+
+nav ul li:last-child{
+	margin-right: 24px;
+}
+
+nav ul li a{
+	/*This makes LI and the A tag the same dimensions*/
+	display: inline-block;
+	outline: none;
+	color: #271F23;
+	text-decoration: none;
+	font-size: 14px;
+	letter-spacing:  1.2px;
+  font-weight: 400;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 25%;
+	text-transform: uppercase;
 }
 
 /* Page Loader */
@@ -226,6 +356,8 @@ a:focus {
 	.message {
 		display: none;
 	}
+
+
 	.frame {
 		position: fixed;
 		text-align: left;
@@ -286,5 +418,169 @@ a:focus {
 	}
 	.grid__item:nth-child(even) {
 		margin-top: -45vh;
+	}
+}
+
+@media screen and (max-width: 864px){
+
+	.logo {
+		padding:10px;
+  }
+
+  .content__text {
+	position: absolute;
+	font-size: 2vw !important;
+}
+
+  .copyright{
+    display:none !important;
+  }
+
+  .menu{
+	text-transform: uppercase;
+	font-size: 3em !important;
+	display: block;
+	width: 90%;
+	max-width: 1200px;
+	margin: 0 auto;
+	font-size: 2rem;
+	z-index: 999;
+	font-weight: normal;
+  }
+
+  h2{
+    letter-spacing: .02em !important;
+  }
+
+
+	.nav-wrapper{
+		/* Creates the mobile navigation Overlay and covers viewport because it's set to fixed */
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height:  100%;
+		z-index: -30;
+		transition: all 0.3s ease;
+	}
+
+	.nav-wrapper ul {
+		/* Places the Navigation Links in the center of page vertically */
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		width: 100%;
+	}
+
+	.nav-wrapper ul li{
+		/* Removes nav items from being inline and stacks them */
+		display: block;
+		float: none;
+		width:  100%;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+
+	/* Creates the transition effect on mobile */
+
+	.nav-wrapper ul li:nth-child(1) a {
+		transition-delay: 0.2s;
+	}
+	.nav-wrapper ul li:nth-child(2) a {
+		transition-delay: 0.3s;
+	}
+	.nav-wrapper ul li:nth-child(3) a {
+		transition-delay: 0.4s;
+	}
+	.nav-wrapper ul li:nth-child(4) a {
+		transition-delay: 0.5s;
+	}
+	.nav-wrapper ul li:nth-child(5) a {
+		transition-delay: 0.6s;
+	}
+
+	.nav-wrapper ul li:not(:first-child){
+		margin-left: 0;
+	}
+
+	.nav-wrapper ul li a{
+		padding: 10px 24px;
+		opacity: 0;
+		color:#EA5439;
+    font-size: 3em;
+    letter-spacing: 1.2px;
+    font-weight: 900;
+		transform: translateX(-20px);
+		transition: all 0.3s ease;
+	}
+
+	.nav-btn{
+		/* Creates the mobile hamburger button and positions on the right side */
+		position: fixed;
+		outline: 0;
+		right: 10px;
+		top: 10px;
+		display: block;
+		width: 48px;
+		height: 48px;
+		cursor: pointer;
+		z-index: 10001;
+		border-radius: 50%;
+	}
+
+	.nav-btn i{
+		display: block;
+		width: 20px;
+		height: 2px;
+		background:#272727;
+		border-radius: 2px;
+		margin-left: 14px;
+	}
+
+	.nav-btn i:nth-child(1){
+		margin-top: 16px;
+	}
+	.nav-btn i:nth-child(2){
+		margin-top: 4px;
+		opacity: 1;
+	}
+	.nav-btn i:nth-child(3){
+		margin-top: 4px;
+	}
+
+	#nav:checked + .nav-btn {
+		transform: rotate(45deg);
+	}
+
+	#nav:checked + .nav-btn i {
+		background: #EDEFFB;
+		transition: transform 0.3s ease;
+	}
+
+	#nav:checked + .nav-btn i:nth-child(1) {
+		transform: translateY(6px) rotate(180deg);
+	}
+
+	#nav:checked + .nav-btn i:nth-child(2) {
+		opacity: 0;
+	}
+
+	#nav:checked + .nav-btn i:nth-child(3) {
+		transform: translateY(-6px) rotate(90deg);
+	}
+
+	#nav:checked ~ .nav-wrapper{
+		opacity: 1;
+		z-index: 10001;
+		background: #F9A688;
+	}
+
+	#nav:checked ~ .nav-wrapper ul li a{
+		opacity: 1;
+		transform: translateX(0);
+	}
+/* x button */
+	#nav:checked + .nav-btn i{
+		background-color: #EA5439
 	}
 }
