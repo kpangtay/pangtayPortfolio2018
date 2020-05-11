@@ -214,6 +214,7 @@ a:focus {
 
 
 .content {
+	margin-top: 50px;
 	display: flex;
 	flex-direction: column;
 	width: 100vw;
@@ -226,7 +227,7 @@ a:focus {
 .content__img-wrap {
 	position: relative;
 	width: 80%;
-	height: 80%;
+	height: calc(100vh - 13rem);
 }
 
 .content__img {
