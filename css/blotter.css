@@ -240,6 +240,7 @@ a:focus {
 	background-size: cover;
 	opacity: 0.7;
 	will-change: transform;
+	margin-top: 20px;
 }
 
 .content__img:nth-child(1) {
