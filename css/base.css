@@ -131,13 +131,18 @@ nav{
     font-weight: 200;
     font-size: .5em;
 }
-  
+
+
 
 
 @media screen and (max-width: 740px){
 	.logo {
 		padding:10px;
   }
+
+  svg {
+	display: none !important;
+}
 
   .copyright{
     display:none !important;
