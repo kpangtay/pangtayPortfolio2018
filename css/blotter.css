@@ -226,7 +226,7 @@ a:focus {
 .content__img-wrap {
 	position: relative;
 	width: 80%;
-	height: calc(100% - 13rem);
+	height: 80%;
 }
 
 .content__img {
