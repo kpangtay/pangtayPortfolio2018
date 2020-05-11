@@ -377,7 +377,6 @@ nav ul li a{
   padding-left: 5%;
   padding-right: 5%;
   padding-top: 25%;
-	text-transform: uppercase;
 }
 
 .contact{
@@ -545,7 +544,7 @@ nav ul li a{
 		width: 100%;
 		height:  100%;
 		z-index: -1;
-		transition: all 0.3s ease;
+		transition: all 1s cubic-bezier(0.4, 0, 1, 1)
 	}
 
 	.nav-wrapper ul {
@@ -561,7 +560,7 @@ nav ul li a{
 		display: block;
 		float: none;
 		width:  100%;
-		text-align: center;
+		text-align: initial;
 		margin-bottom: 10px;
 	}
 
@@ -590,10 +589,10 @@ nav ul li a{
 	.nav-wrapper ul li a{
 		padding: 10px 24px;
 		opacity: 0;
-		color:#272727;
+		color:#EA5439;
     font-size: 3em;
     letter-spacing: 1.2px;
-    font-weight: 900;
+    font-weight: 400;
 		transform: translateX(-20px);
 		transition: all 0.3s ease;
 	}
@@ -616,7 +615,7 @@ nav ul li a{
 		display: block;
 		width: 20px;
 		height: 2px;
-		background:#271F23;
+		background: #EA5439;
 		border-radius: 2px;
 		margin-left: 14px;
 	}
@@ -656,7 +655,7 @@ nav ul li a{
 	#nav:checked ~ .nav-wrapper{
 		opacity: 1;
     z-index: 9;
-    background: #F5A88E;
+    background: #272727;
 	}
 
 	#nav:checked ~ .nav-wrapper ul li a{
@@ -665,7 +664,7 @@ nav ul li a{
 	}
 /* x button */
 	#nav:checked + .nav-btn i{
-		background-color: #F8F3F0
+		background-color: #EA5439
 	}
 }
 
