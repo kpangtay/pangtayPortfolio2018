@@ -384,6 +384,44 @@ nav ul li a{
 }
 
 
+.marquee {
+	width: 100%;
+	height:120px;
+	line-height:120px;
+	overflow: hidden;
+	padding:0;
+}
+.marquee span {
+	position:relative;
+	padding: 0 140px 0 0;
+	height:120px;
+	line-height:120px;
+	font-size:100px;
+	overflow:visible;
+	white-space:nowrap;
+}
+
+.marquee a{
+  -webkit-text-stroke: 1px #979797;
+}
+.marquee span::before {
+	position:absolute;
+	top:20px;
+	left:-110px;
+	display:block;
+	width:100px;
+	height:48px;
+	line-height:12px;
+	font-size:12px;
+	text-transform:uppercase;
+	text-align:right;
+	white-space:normal;
+}
+
+
+
+
+
 @media screen and (max-width: 864px){
 	.logo {
 		padding:10px;
