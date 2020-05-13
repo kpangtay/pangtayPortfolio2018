@@ -76,6 +76,7 @@ a{
 	font-size: 1em;
 	letter-spacing: 2px;
 	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -118,6 +119,7 @@ nav{
 	padding-left: 5%;
 	padding-right: 5%;
 	padding-top: 25%;
+	font-family: 'Montserrat', sans-serif;
   }
 
   .copyright {

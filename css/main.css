@@ -285,12 +285,13 @@ h1{
 }
 
 .logo a{
-	color: #271F23;
+	color: #272727;
 	/* text-transform: uppercase; */
 	font-weight: 900;
 	font-size: 1em;
 	letter-spacing: 2px;
-	text-decoration: none;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .header2 {
@@ -369,7 +370,7 @@ nav ul li a{
 	/*This makes LI and the A tag the same dimensions*/
 	display: inline-block;
 	outline: none;
-	color: #271F23;
+	color:  #272727;
 	text-decoration: none;
 	font-size: 14px;
 	letter-spacing:  1.2px;
@@ -377,6 +378,7 @@ nav ul li a{
   padding-left: 5%;
   padding-right: 5%;
   padding-top: 25%;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .contact{
