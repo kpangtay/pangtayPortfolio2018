@@ -429,11 +429,6 @@ nav ul li a{
 }
 
 
-/* .case__content{
-  min-height: 100vh;
-  padding-top: 150px;
-} */
-
 iframe, img, video {
   vertical-align: middle;
 }
@@ -500,7 +495,7 @@ iframe{
 	.logo {
 		padding:10px;
   }
-  .case__content{
+  .project__content{
     min-height: 100vh;
     /* padding-top: 150px; */
   }
