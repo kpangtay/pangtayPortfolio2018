@@ -429,13 +429,172 @@ nav ul li a{
 }
 
 
+iframe, img, video {
+  vertical-align: middle;
+}
 
+.sides {
+  padding-right: 60px !important;
+  padding-left: 60px !important;
+}
+.video {
+  margin-bottom: 150px;
+  margin-top: 150px;
+}
 
+.text-block {
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.image{
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.wrap-540 {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 900px;
+}
+.wrap-1240 {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+}
+.full-image {
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+.full-image img {
+  display: block;
+  width: 100%;
+  opacity: 0;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+img {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+  width: 100%;
+  height: auto;
+}
+
+iframe{
+  width: 1200px;
+  height: 675px;
+}
 
 @media screen and (max-width: 864px){
 	.logo {
 		padding:10px;
   }
+  .project__content{
+    min-height: 100vh;
+    /* padding-top: 150px; */
+  }
+
+  iframe{
+    width:335px;
+     height: 188.4375px; 
+  }
+  
+
+  .wrap-1240 {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
+    }
+
+    .sides {
+      padding-left: 20px !important;
+      padding-right: 20px !important;
+  }
+
+  .video {
+    margin-top: 90px;
+    margin-bottom: 90px;
+  }
+
+.text-block {
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+
+.text-block__wrap {
+  max-width: 100%;
+  width: 100%;
+}
+.text-block__title {
+  display: block;
+  margin-bottom: 24px;
+}
+
+.text-26 {
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 1.30769;
+  letter-spacing: 0;
+  font-family: CanelaText,sans-serif;
+  font-size: 19px;
+}
+
+.wrap-540 {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 270px;
+}
+
+.image {
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+
+.video__wrap {
+  opacity: 0;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.p, p {
+  margin: 0 0 1.5em !important;
+}
+
+ 
+  
+
+  .full-image {
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+.full-image img {
+  display: block;
+  width: 100%;
+  opacity: 0;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+img {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
   .marquee a{
    font-size: .7em !important;
   }
