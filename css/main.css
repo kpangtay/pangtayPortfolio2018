@@ -66,7 +66,7 @@ main::before {
 .link-view{
   text-decoration: underline;
   color: #EA5439;
-  line-height: 1.4rem;
+  line-height: 1.5em;
   letter-spacing: 0.9px;
   font-weight: 300;
   font-size: .8em;
@@ -150,11 +150,11 @@ h1{
 }
 
 .project-header-under{
-  font-size: .3em;
+  font-size: .4em;
   font-weight: 300;
   letter-spacing: 3px;
 }
-}
+
 
 .section-project-info {
   -webkit-box-ordinal-group: 1;
@@ -167,7 +167,7 @@ h1{
   margin: 0 auto;
   padding-top: 1.7em;
   padding-bottom: 2.35714rem;
-  color: #271F23;
+  color: #272727;
  
 }
 
@@ -1334,9 +1334,9 @@ p{
   margin: 10px 0 25px 0;
   font-size: 1em;
   text-align: initial;
-  line-height: 1.4rem;
+  line-height: 1.5em;
   letter-spacing: 0.9px;
-  font-weight: 100;
+  font-weight: 300;
 }
 
 
@@ -1519,7 +1519,7 @@ section{
 .bio-section .about-paragraph p{ 
   font-weight: 200;
   font-size: 2em;
-  line-height: 1.4;
+  line-height: 1.5em;
 }
 
 .bio-info  h1{
