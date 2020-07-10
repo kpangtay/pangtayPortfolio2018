@@ -393,6 +393,7 @@ nav ul li a{
 	overflow: hidden;
 	padding:0;
 }
+
 .marquee span {
 	position:relative;
 	padding: 0 50px 0 0;
@@ -599,6 +600,9 @@ img {
   width: 100%;
   height: auto;
   vertical-align: middle;
+}
+.marquee{
+  padding-bottom: 55vw;
 }
 
   .marquee a{
