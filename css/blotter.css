@@ -18,8 +18,8 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,section,summar
 body {
 	--color-text: #272727;
     --color-bg: #F5F0EA;
-    --color-link: #59647e;
-    --color-link-hover: #cc8678;
+    --color-link: #EA5439;
+    --color-link-hover: #272727;
     --color-overlay: #451a11;
     --color-tagline: #c69f64;
 	color: var(--color-text);

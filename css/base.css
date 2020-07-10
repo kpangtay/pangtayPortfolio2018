@@ -16,20 +16,33 @@ audio,canvas,video{display:inline-block;}audio:not([controls]){display:none;heig
 
 
 body {
-	--color-text: ##272727;
+	--color-text: #272727;
 	--color-bg: #F5F0EA;
 	--color-link: #EA5439;
-	--color-link-hover: #333;
+	--color-link-hover:#272727;
 	--color-content-link: #EA5439;
 	--color-content-link-hover: #EA5439;
 	--color-heading: #d1cfcf;
 	color: var(--color-text);
 	background-color: var(--color-bg);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 300;
 }
 
 /*NAVIGATION */
+
+
+.link-view{
+	text-decoration: underline;
+	color: #EA5439;
+	line-height: 1.5em;
+	letter-spacing: 0.9px;
+	font-weight: 300;
+	font-size: .8em;
+  }
+
 a{
 	text-decoration: none;
 	color: #272727;
