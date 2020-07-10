@@ -414,6 +414,10 @@ nav ul li a{
   text-transform:uppercase; 
 }
 
+.marquee a:hover{
+  color: #292929;
+}
+
 
 
 .marquee span::before {
@@ -599,6 +603,10 @@ img {
 
   .marquee a{
    font-size: .7em !important;
+  }
+
+  .marquee a:hover{
+    color: #292929;
   }
 
   .socials{
